@@ -78,7 +78,7 @@ const LinksAdmin = () => {
                 </div>
               </div>
               <p>{link.description}</p>
-              <iframe width="420" height="315"src={link.url} target="_blank" rel="noopener noreferrer"></iframe>
+              <iframe width="560" height="315"src={link.url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         ))}
